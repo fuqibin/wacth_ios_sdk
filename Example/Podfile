@@ -1,0 +1,19 @@
+# CocoaPods 官方源
+source 'https://github.com/CocoaPods/Specs.git'
+# 私有源
+source 'https://github.com/fuqibin/BAOSWacthSpec.git'
+
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'wacthSDk_Example' do
+  pod 'wacthSDk', :path => '../'
+
+  #pod 'FMDB'
+  target 'wacthSDk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,25 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - wacthSDk (0.1.0):
+    - FMDB
+
+DEPENDENCIES:
+  - wacthSDk (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FMDB
+
+EXTERNAL SOURCES:
+  wacthSDk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  wacthSDk: 0ba5d81e24bc256b0033e9f4bf205915c654e01a
+
+PODFILE CHECKSUM: b609669b0df439c565e08ccb6d46e0f4d9d9741a
+
+COCOAPODS: 1.10.1

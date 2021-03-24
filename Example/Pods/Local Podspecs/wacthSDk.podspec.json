@@ -1,0 +1,32 @@
+{
+  "name": "wacthSDk",
+  "version": "0.1.0",
+  "summary": "A short description of wacthSDk.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fuqibin/wacthSDk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fuqibin": "906351101@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fuqibin/wacthSDk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "wacthSDk/Classes/**/*",
+  "resource_bundles": {
+    "wacthSDk": [
+      "wacthSDk/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "FMDB": [
+
+    ]
+  }
+}

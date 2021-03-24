@@ -1,0 +1,6 @@
+framework module wacthSDk {
+  umbrella header "wacthSDk-umbrella.h"
+
+  export *
+  module * { export * }
+}
