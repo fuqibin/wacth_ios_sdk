@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'ssh://git@git.huabao.cn:10022/fu/watch_ios_sdk.git'
+  s.homepage         = 'https://github.com/fuqibin/wacth_ios_sdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fuqibin' => '906351101@qq.com' }
-  s.source           = { :git => 'ssh://git@git.huabao.cn:10022/fu/watch_ios_sdk.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fuqibin/wacth_ios_sdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
